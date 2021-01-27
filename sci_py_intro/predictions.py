@@ -29,6 +29,9 @@ model.fit(X_train, Y_train)
 predictions = model.predict(X_validation)
 
 # evaluate predictions
+print('\n Accuracy:')
 print(accuracy_score(Y_validation, predictions))
+print('\n Confusion Matrix:')
 print(confusion_matrix(Y_validation, predictions))
+print('\n Classification Report:')
 print(classification_report(Y_validation, predictions))

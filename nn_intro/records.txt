@@ -1,0 +1,34 @@
+	---Batch Test---
+Batch Size: 10 Accuracy: 75.91
+Batch Size: 20 Accuracy: 78.52
+Batch Size: 30 Accuracy: 79.17
+Batch Size: 40 Accuracy: 78.65
+Batch Size: 50 Accuracy: 79.95
+Batch Size: 60 Accuracy: 79.82
+Batch Size: 70 Accuracy: 79.82
+Batch Size: 80 Accuracy: 80.21
+Batch Size: 90 Accuracy: 79.56
+Batch Size: 100 Accuracy: 80.73
+Batch Size: 110 Accuracy: 80.73
+Batch Size: 120 Accuracy: 79.95
+Batch Size: 130 Accuracy: 80.86
+Batch Size: 140 Accuracy: 80.34
+Batch Size: 150 Accuracy: 80.86
+
+	---Epoch Test---
+Epochs: 10 Accuracy: 67.84
+Epochs: 20 Accuracy: 74.09
+Epochs: 30 Accuracy: 75.13
+Epochs: 40 Accuracy: 77.08
+Epochs: 50 Accuracy: 71.74
+Epochs: 60 Accuracy: 78.39
+Epochs: 70 Accuracy: 80.86
+Epochs: 80 Accuracy: 81.38
+Epochs: 90 Accuracy: 80.73
+Epochs: 100 Accuracy: 82.29
+Epochs: 110 Accuracy: 81.90
+Epochs: 120 Accuracy: 80.34
+Epochs: 130 Accuracy: 80.86
+Epochs: 140 Accuracy: 81.90
+Epochs: 150 Accuracy: 82.29
+

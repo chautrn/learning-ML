@@ -17,3 +17,8 @@ model.add(Dense(1, activation='sigmoid'))
 
 # compile the keras model
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+for i in range(1, 16):
+    model.fit(X, Y, epochs=150, batch_size=i*10, verbose=0) 
+    _, accuracy = model.evaluate(X, Y, verbose=0)
+    print('Batch Size: %d Accuracy: %.2f' % (i*10, accuracy*100))
