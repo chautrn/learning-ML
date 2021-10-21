@@ -21,11 +21,13 @@ X = array[:,0:4]
 # y is the output, the resulting flower type from those inputs
 Y = array[:,4]
 
-X_train, X_validation, Y_train, Y_validation = train_test_split(X, Y, test_size=0.2, random_state=1)
+X_train, X_validation, Y_train, Y_validation = train_test_split(X, Y, test_size=0.3, random_state=1)
 
-# make predictions
+
+# selecting model
 model = SVC(gamma='auto')
 model.fit(X_train, Y_train)
+# make predictions
 predictions = model.predict(X_validation)
 
 # evaluate predictions
